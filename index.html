@@ -1,10 +1,10 @@
-//By Gabriel miracle 
+//By EmmyHenz
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATTO TUTORS</title>
+    <title>Business Storefront</title>
     <style>
         * {
             margin: 0;
@@ -13,11 +13,11 @@
             font-family: 'Poppins', sans-serif;
         }
         body {
-            background: #C0C0C0;
+            background: #f0f2f5;
             color: #333;
         }
         .header {
-            background: linear-gradient(45deg, #808080, #000000);
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
             color: white;
             text-align: center;
             padding: 20px;
@@ -37,7 +37,7 @@
             display: flex;
             justify-content: space-between;
             padding: 10px 20px;
-            background: #DCDCDC;
+            background: #ff4b2b;
             border-radius: 10px;
         }
         .nav a {
@@ -72,7 +72,7 @@
         }
         .product-card h3 {
             margin: 10px 0;
-            color: #000000;
+            color: #ff416c;
         }
         .product-card p {
             font-size: 0.9em;
@@ -81,19 +81,19 @@
         .product-card button {
             padding: 10px 20px;
             border: none;
-            background: #DCDCDC;
+            background: #ff416c;
             color: white;
             border-radius: 5px;
             cursor: pointer;
             transition: 0.3s;
         }
         .product-card button:hover {
-            background: #808080;
+            background: #d92b57;
         }
         .contact-section {
             text-align: center;
             padding: 30px;
-            background: #DCDCDC;
+            background: #ff4b2b;
             color: white;
             border-radius: 10px;
             margin-top: 30px;
@@ -108,11 +108,11 @@
         }
         .contact-section button {
             background: white;
-            color: #DCDCDC;
+            color: #ff4b2b;
             cursor: pointer;
         }
         .contact-section button:hover {
-            background: #000000;
+            background: #ffe0e0;
         }
         footer {
             text-align: center;
@@ -124,7 +124,7 @@
     </style>
 </head>
 <body>
-    <div class="header">MATTO TUTORS </div>
+    <div class="header">🛍️ Business Storefront</div>
     
     <nav class="nav">
         <a href="#">Home</a>
@@ -134,28 +134,25 @@
     </nav>
 
     <div class="container">
-        <h2>PAST QUESTIONS</h2>
+        <h2>🔥 Trending Products</h2>
         <div class="product-grid">
             <div class="product-card">
-                <img src="https://via.past questions.com/200"alt=
- "YEAR 1">
-                <h3>MATHS QUESTIONS</h3>
-                <p>Get maths past questions at the best price.</p>
-                <button onclick="addToCart('Maths')">READ</button>
+                <img src="https://via.placeholder.com/200" alt="Product 1">
+                <h3>Exclusive Sneakers</h3>
+                <p>Limited edition footwear for top style.</p>
+                <button onclick="addToCart('Sneakers')">Add to Cart</button>
             </div>
-            <div class="Maths-card">
-                <img src="https://www.maths.com"alt=
- "YEAR 2">
-                <h3>PHYSICS</h3>
-                <p>Get physics past questions at the best price.</p>
-                <button onclick="addToCart('Physics')">STUDY</button>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Product 2">
+                <h3>Luxury Watch</h3>
+                <p>Premium watches at the best price.</p>
+                <button onclick="addToCart('Watch')">Add to Cart</button>
             </div>
-            <div class="Physics-card">
-                <img src="https://Physics.com/200" alt=
- "YEAR 3">
-                <h3>USE OF ENGLISH</h3>
-                <p>Latest model with all features.</p>
-                <button onclick="addToCart('English')">READ</button>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Product 3">
+                <h3>Smartphone</h3>
+                <p>Latest model with cutting-edge features.</p>
+                <button onclick="addToCart('Smartphone')">Add to Cart</button>
             </div>
         </div>
     </div>
@@ -163,11 +160,11 @@
     <div class="contact-section">
         <h2>📞 Contact Us</h2>
         <p>Have questions? Drop your email and we'll reach out.</p>
-        <input type="email" placeholder="kulous10@gmail.com">
+        <input type="email" placeholder="emmy@gmail.com">
         <button>Submit</button>
     </div>
 
-    <footer>© 2025 MATTO TUTORS | All Rights Reserved</footer>
+    <footer>© 2025 Business Storefront | All Rights Reserved</footer>
 
     <script>
         function addToCart(item) {
